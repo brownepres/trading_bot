@@ -1,0 +1,14 @@
+name: tradingbot
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - yfinance
+  - streamlit
+  - statsmodels
+  - pip
+  - pip:
+      - finbert-embedding
